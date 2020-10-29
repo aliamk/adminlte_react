@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Menu from './Menu'
 import Header from './Header'
 import Footer from './Footer'
+import Content from './Content'
 
 export default class App extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Menu />
+        <Content />
         <Footer />
       </div>
     )
